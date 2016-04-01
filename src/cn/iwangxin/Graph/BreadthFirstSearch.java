@@ -62,14 +62,12 @@ public class BreadthFirstSearch {
     public Stack<Integer> PathTo(int v)
     {
         if (!HasPathTo(v)) return null;
-
         Stack<Integer> path = new Stack<Integer>();
         for (int x = v; x!=sourceVetical; x=edgeTo[x])
         {
             path.push(x);
         }
         path.push(sourceVetical);
-
         return path;
     }
 
