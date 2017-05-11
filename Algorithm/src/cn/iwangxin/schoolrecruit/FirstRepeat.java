@@ -1,4 +1,4 @@
-package cn.iwangxin.leetcode;
+package cn.iwangxin.schoolrecruit;
 
 
 import java.util.LinkedHashMap;

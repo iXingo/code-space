@@ -1,4 +1,4 @@
-package cn.iwangxin.leetcode;
+package cn.iwangxin.schoolrecruit;
 
 public class BinarySearch {
     public static int getPos(int[] A, int n, int val) {

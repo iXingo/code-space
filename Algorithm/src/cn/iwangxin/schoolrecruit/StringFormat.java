@@ -1,4 +1,4 @@
-package cn.iwangxin.leetcode;
+package cn.iwangxin.schoolrecruit;
 
 /**
  * Created by 汪欣 on 2017/05/08.
