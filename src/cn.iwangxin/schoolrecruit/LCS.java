@@ -21,6 +21,6 @@ public class LCS {
     }
 
     public static void main(String[] args) {
-        //System.out.println(findLCS("cnblogs",7,"belong",6));
+        System.out.println(findLCS("cnblogs",7,"belong",6));
     }
 }
