@@ -16,7 +16,7 @@ public class Shell extends SortTemplate {
                     exch(data,j,j-h);
                 }
             }
-            h= h/3;
+            h = h/3;
         }
     }
 }
