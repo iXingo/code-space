@@ -1,6 +1,6 @@
 package cn.iwangxin.sort.shellsort;
 
-import cn.wangxin.sort.template.SortTemplate;
+import cn.iwangxin.sort.template.SortTemplate;
 
 /**
  * Created by 汪欣 on 2017/02/16.
