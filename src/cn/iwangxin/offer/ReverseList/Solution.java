@@ -59,7 +59,7 @@ public class Solution {
         n3.next = n4;
         ListNode no = s.ReverseList(n1);
         while(no!=null){
-            System.out.println(no.val);
+            System.out.print(no.val);
             no = no.next;
         }
     }
