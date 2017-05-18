@@ -16,7 +16,7 @@ class ListNode {
 }
 
 public class Solution {
-    //时间开销太大，Reject
+    //时间开销太大，Reject，废弃
     public ListNode ReverseList1(ListNode head) {
         ListNode node, first;
         Stack<ListNode> stack = new Stack();
