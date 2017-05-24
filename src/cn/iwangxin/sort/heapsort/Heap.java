@@ -2,8 +2,6 @@ package cn.iwangxin.sort.heapsort;
 
 import cn.iwangxin.sort.template.SortTemplate;
 
-import java.util.Arrays;
-
 
 /**
  * 元素k的父节点所在的位置为[k/2]
