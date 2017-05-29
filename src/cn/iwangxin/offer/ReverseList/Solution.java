@@ -16,6 +16,25 @@ class ListNode {
 }
 
 public class Solution {
+
+    //定义3个指针，分别指向当前遍历到的结点、它的前一个结点及后一个结点。
+    //在遍历过程中，首先记录当前节点的后一个节点，然后将当前节点的后一个节点指向前一个节点，
+    //其次前一个节点再指向当前节点，最后再将当前节点指向最初记录的后一个节点，
+    //如此反复，直到当前节点的后一个节点为NULL时，则代表当前节点时反转后的头结点了。
+    public ListNode ReverseList(ListNode head) {
+        if(head==null)
+            return null;
+        ListNode pre = null;
+        ListNode next = null;
+        while(head!=null){
+            next = head.next;
+            head.next = pre;
+            pre = head;
+            head = next;
+        }
+        return pre;
+    }
+
     //时间开销太大，Reject，废弃
     public ListNode ReverseList1(ListNode head) {
         ListNode node, first;
@@ -34,19 +53,7 @@ public class Solution {
         return first;
     }
 
-    public ListNode ReverseList(ListNode head) {
-        if(head==null)
-            return null;
-        ListNode pre = null;
-        ListNode next = null;
-        while(head!=null){
-            next = head.next;
-            head.next = pre;
-            pre = head;
-            head = next;
-        }
-        return pre;
-    }
+
 
     public static void main(String[] args) {
         Solution s = new Solution();
