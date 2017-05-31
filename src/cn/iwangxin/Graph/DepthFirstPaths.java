@@ -13,8 +13,8 @@ public class DepthFirstPaths {
 
     public DepthFirstPaths(Graph g, int s)
     {
-        marked = new boolean[g.GetVerticals()];
-        edgesTo = new int[g.GetVerticals()];
+        marked = new boolean[g.getVerticals()];
+        edgesTo = new int[g.getVerticals()];
         this.s = s;
         dfs(g, s);
     }
@@ -22,7 +22,7 @@ public class DepthFirstPaths {
     private void dfs(Graph g, int v)
     {
         marked[v] = true;
-        for (int w : g.GetAdjacency(v))
+        for (int w : g.getAdjacency(v))
         {
             if (!marked[w])
             {

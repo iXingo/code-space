@@ -28,8 +28,8 @@ public class BreadthFirstSearch {
 
     public BreadthFirstSearch(Graph g, int s)
     {
-        marked=new boolean[g.GetVerticals()];
-        edgeTo=new int[g.GetVerticals()];
+        marked=new boolean[g.getVerticals()];
+        edgeTo=new int[g.getVerticals()];
         this.sourceVetical = s;
         bfs(g, s);
     }
@@ -42,7 +42,7 @@ public class BreadthFirstSearch {
         while (queue.size()!=0)
         {
             int v = queue.poll();
-            for(Integer w : g.GetAdjacency(v))
+            for(Integer w : g.getAdjacency(v))
             {
                 if (!marked[w])
                 {

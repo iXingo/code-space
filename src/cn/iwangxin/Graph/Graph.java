@@ -21,24 +21,24 @@ public class Graph {
         }
     }
 
-    public int GetVerticals ()
+    public int getVerticals ()
     {
         return verticals;
     }
 
-    public int GetEdges()
+    public int getEdges()
     {
         return edges;
     }
 
-    public void AddEdge(int verticalStart, int verticalEnd)
+    public void addEdge(int verticalStart, int verticalEnd)
     {
         adjacency[verticalStart].add(verticalEnd);
         adjacency[verticalEnd].add(verticalStart);
         edges++;
     }
 
-    public ArrayList<Integer> GetAdjacency(int vetical)
+    public ArrayList<Integer> getAdjacency(int vetical)
     {
         return adjacency[vetical];
     }

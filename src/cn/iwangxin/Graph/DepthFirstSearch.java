@@ -9,7 +9,7 @@ public class DepthFirstSearch {
 
     private DepthFirstSearch(Graph g, int v)
     {
-        marked = new boolean[g.GetVerticals()];
+        marked = new boolean[g.getVerticals()];
         dfs(g, v);
     }
 
@@ -17,14 +17,14 @@ public class DepthFirstSearch {
     {
         marked[v] = true;
         count++;
-        for (int vertical : g.GetAdjacency(v))
+        for (int vertical : g.getAdjacency(v))
         {
             if (!marked[vertical])
                 dfs(g,vertical);
         }
     }
 
-    public boolean sMarked(int vertical)
+    public boolean isMarked(int vertical)
     {
         return marked[vertical];
     }

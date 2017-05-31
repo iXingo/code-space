@@ -25,7 +25,7 @@ public class Heap extends SortTemplate {
     /**
      * 自上而下的有序化（下沉）的实现
      * 当某一节点比其子节点要小的时候，就违反了二叉堆的定义，需要和其子节点进行交换以重新建堆，直到该节点都大于其子节点为止：
-     * @param data
+     * @param data 待操作的数据
      * @param k
      * @param n
      */
