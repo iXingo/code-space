@@ -1,0 +1,10 @@
+8
+pop_back
+push_front 1
+max
+push_front 2
+max
+reverse
+pop_back
+max
+

@@ -1,4 +1,4 @@
-package cn.iwangxin.huawei;
+package cn.iwangxin.company.huawei;
 
 /**
  * Created by 汪欣 on 2017/03/24.

@@ -1,4 +1,4 @@
-package cn.iwangxin.huawei;
+package cn.iwangxin.company.huawei;
 
 import java.util.LinkedHashSet;
 import java.util.Scanner;
