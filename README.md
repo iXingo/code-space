@@ -18,3 +18,6 @@ This project is created for job interview during my study at NUAA, and created f
 > zte
 > nvidia
 > flyteck
+> cvte
+> ctrix
+> suning
